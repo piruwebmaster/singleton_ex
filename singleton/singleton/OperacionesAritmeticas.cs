@@ -10,7 +10,7 @@ namespace singleton
     {
         private static OperacionesAritmeticas operaciones = null;
         private OperacionesAritmeticas() { }
-        public static OperacionesAritmeticas GetInstance()
+        public static OperacionesAritmeticas getInstance()
         {
             if (operaciones == null)
             {
