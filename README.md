@@ -1,0 +1,2 @@
+# singleton_ex
+singleton
