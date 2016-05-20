@@ -13,7 +13,7 @@ namespace singleton
             int x = 5, y = 2;
             double a = 12, b = 5;
 
-            OperacionesAritmeticas operacion = OperacionesAritmeticas.GetInstance();
+            OperacionesAritmeticas operacion = OperacionesAritmeticas.getInstance();
 
             Console.WriteLine(string.Format("{0} + {1} = {2}", x, y, operacion.sumar(x, y)));
             Console.WriteLine(string.Format("{0} - {1} = {2}", x, y, operacion.restar(x, y)));
